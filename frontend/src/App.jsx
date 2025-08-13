@@ -25,7 +25,7 @@ const app = initializeApp(firebaseConfig);
 const auth =getAuth(app);
 
 
-  const socket =io("http://localhost:3000")
+  const socket =io("https://whatsapp-clone-nvtt.onrender.com")
 
 
 const App = () => {

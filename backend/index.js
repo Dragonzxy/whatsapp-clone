@@ -11,7 +11,7 @@ app.use(cors());
 const server = http.createServer(app)
 const io= new Server(server,{
     cors:{
-        origin:"https://whatS-app.netlify.app",
+        origin:"https://whats-app-dragon.netlify.app",
         methods:["GET","POST"]
     }
 })
